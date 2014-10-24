@@ -1,0 +1,45 @@
+article {
+    font-size: 1.4em;
+    padding: 20px;
+}
+
+section {
+    font-size: 1.2em;
+    margin-top: 20%;
+    padding: 10px;
+}
+
+footer {
+    padding: 20px;
+    text-align: right;
+}
+
+aside {
+    position: fixed;
+    right: 0;
+    width: 20%;
+	max-width: 200px;
+}
+
+aside h4 {
+	margin: 7px 0;
+}
+
+label {
+	margin-top: 5px;
+}
+label:after {
+	content: ':';
+}
+
+#scroll-time,
+#scroll-label {
+	display: block;
+	width: 90%;
+	margin-bottom: 5px;
+}
+
+.submit {
+    display: block;
+    margin: 5px auto;
+}
