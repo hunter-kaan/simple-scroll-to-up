@@ -21,6 +21,10 @@
 	user-select: none
 }
 
+.stu-button:after {
+	content: 'Back to top'
+}
+
 .stu-button:hover {
 	border-color: #424242;
 	color: #424242

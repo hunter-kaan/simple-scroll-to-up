@@ -1,8 +1,7 @@
 window.addEventListener('load', function () {
+	var STUConfig = STUConfig || {};
 	var button = document.createElement('span');
 	button.classList.add('stu-button');
-	var textLabel = document.createTextNode(STUConfig.label || 'Back to top');
-	button.appendChild(textLabel);
 	document.body.appendChild(button);
 
 	var isMoving, interval;
