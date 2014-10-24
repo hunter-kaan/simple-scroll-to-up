@@ -18,7 +18,7 @@ window.addEventListener('load', function () {
 			if (window.scrollY === 0) {
 				clearInterval(interval);
 			}
-		}, STUConfig.time || 1000 / 100);
+		}, (STUConfig.time || 1000) / 100);
 	};
 	var stopMoving = function () {
 		if (isMoving) {
