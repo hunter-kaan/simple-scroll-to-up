@@ -1,3 +1,4 @@
+/** Simple scroll to up by ValianT | https://github.com/one-more-developer/simple-scroll-to-up */
 window.addEventListener('load', function () {
 	var STUConfig = STUConfig || {};
 	var button = document.createElement('span');
